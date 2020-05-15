@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_stat_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:id="@+id/tv_stat_card_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="World Stats"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="24sp" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/cc_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_stat_card_title"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Total"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Deats"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Recovered"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="22sp" />
+
+            </android.support.design.widget.CoordinatorLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/cl_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cc_1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="3.06M" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="212K" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="907K" />
+
+            </android.support.design.widget.CoordinatorLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_stat_india"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cv_stat_world"
+        android:layout_marginVertical="16dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:id="@+id/tv_stat_card_title_india"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="India Stats"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="24sp" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/cc_1_india"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_stat_card_title_india"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Total"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Deats"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Recovered"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="22sp" />
+
+            </android.support.design.widget.CoordinatorLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/cl_2_india"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cc_1_india">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="30K" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="937" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="7027" />
+
+            </android.support.design.widget.CoordinatorLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_stat_delhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cv_stat_india"
+        android:layout_marginVertical="16dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:id="@+id/tv_stat_card_title_delhi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delhi Stats"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="24sp" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/cc_1_delhi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_stat_card_title_delhi"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Total"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Deats"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Recovered"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="22sp" />
+
+            </android.support.design.widget.CoordinatorLayout>
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/cl_2_delhi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cc_1_delhi">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="3108" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="57" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="-" />
+
+            </android.support.design.widget.CoordinatorLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
